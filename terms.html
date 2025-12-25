@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - CursoorNow</title>
-    <meta name="description" content="CursoorNow Terms of Service - Learn about the terms and conditions for using our AI app creation platform">
+    <title>Terms of Service - PrivaZone AI Browser</title>
+    <meta name="description" content="PrivaZone AI Browser Terms of Service - Learn about the terms and conditions for using our AI-powered browser">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="assets/icon/app_icon.png">
     <style>
+        :root {
+            --primary: #FF9900;
+            --bg-dark: #000000;
+            --bg-panel: #0A0A0A;
+        }
+
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            background-color: var(--bg-dark);
+            color: #CCCCCC;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+        }
+
         .terms-container {
             max-width: 800px;
             margin: 0 auto;
@@ -27,20 +43,23 @@
             font-weight: 700;
             color: white;
             margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
         
         .terms-subtitle {
             font-size: 1.1rem;
-            color: #94a3b8;
+            color: var(--primary);
         }
         
         .terms-content {
-            background: #1e293b;
+            background: var(--bg-panel);
             padding: 3rem;
             border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 153, 0, 0.2);
+            box-shadow: 0 4px 20px rgba(255, 153, 0, 0.1);
             line-height: 1.8;
-            color: #cbd5e1;
+            color: #CCCCCC;
         }
         
         .terms-section {
@@ -50,22 +69,23 @@
         .terms-section h2 {
             font-size: 1.5rem;
             font-weight: 600;
-            color: #f8fafc;
+            color: white;
             margin-bottom: 1rem;
             padding-bottom: 0.5rem;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 2px solid var(--primary);
+            text-transform: uppercase;
         }
         
         .terms-section h3 {
             font-size: 1.2rem;
             font-weight: 600;
-            color: #e2e8f0;
+            color: var(--primary);
             margin: 1.5rem 0 0.5rem;
         }
         
         .terms-section p {
             margin-bottom: 1rem;
-            color: #cbd5e1;
+            color: #CCCCCC;
         }
         
         .terms-section ul {
@@ -75,7 +95,7 @@
         
         .terms-section li {
             margin-bottom: 0.5rem;
-            color: #cbd5e1;
+            color: #CCCCCC;
         }
         
         .warning-box {
@@ -84,32 +104,34 @@
             border-radius: 8px;
             border-left: 4px solid #ef4444;
             margin: 1.5rem 0;
-            color: #e2e8f0;
+            color: white;
         }
         
         .info-box {
-            background-color: rgba(0, 198, 255, 0.1);
+            background-color: rgba(255, 153, 0, 0.1);
             padding: 1rem;
             border-radius: 8px;
-            border-left: 4px solid #00c6ff;
+            border-left: 4px solid var(--primary);
             margin: 1.5rem 0;
-            color: #e2e8f0;
+            color: white;
         }
         
         .contact-info {
-            background-color: rgba(0, 198, 255, 0.1);
+            background-color: rgba(255, 153, 0, 0.05);
             padding: 1.5rem;
             border-radius: 8px;
-            border-left: 4px solid #00c6ff;
+            border-left: 4px solid var(--primary);
             margin: 2rem 0;
         }
         
         .back-link {
             display: inline-block;
             margin-top: 2rem;
-            color: #38ef7d;
+            color: var(--primary);
             text-decoration: none;
             font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         
         .back-link:hover {
@@ -136,8 +158,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="assets/icon/app_icon.png" alt="CursoorNow" class="logo-img">
-                <span class="logo-text">CursoorNow</span>
+                <img src="assets/icon/app_icon.png" alt="PrivaZone AI Browser" class="logo-img">
+                <span class="logo-text">PrivaZone AI Browser</span>
             </div>
             <div class="nav-menu">
                 <a href="index.html" class="nav-link">Home</a>
@@ -158,56 +180,58 @@
             <div class="terms-section">
                 <h2>1. Acceptance of Terms</h2>
                 <p>
-                    Welcome to CursoorNow! By accessing or using our AI app generation platform, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.
+                    Welcome to PrivaZone AI Browser! By accessing or using our browser, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.
                 </p>
             </div>
 
             <div class="terms-section">
                 <h2>2. Service Description</h2>
-                <p>CursoorNow provides AI-powered tools to generate, use, and share apps based on natural language descriptions. Our services include:</p>
+                <p>PrivaZone AI Browser provides a dual-space browsing environment with integrated AI assistance. Our services include:</p>
                 <ul>
-                    <li>App generation engine</li>
-                    <li>Asset creation tools</li>
-                    <li>Hosting and sharing of user-generated apps</li>
+                    <li>Standard browsing (Regular Space)</li>
+                    <li>Biometric-secured isolated browsing (Private Space)</li>
+                    <li>AI-powered webpage content analysis and chat</li>
+                    <li>Ad-blocking and tracking protection</li>
                 </ul>
             </div>
 
             <div class="terms-section">
-                <h2>3. User Content and Conduct</h2>
+                <h2>3. User Conduct and Content Restrictions</h2>
                 
-                <h3>3.1 User Responsibility</h3>
-                <p>You are solely responsible for the content you generate using CursoorNow. You represent that you own or have the necessary rights to your text prompts.</p>
+                <h3>3.1 Content Policy</h3>
+                <p>We maintain different AI safety policies depending on the browsing space used:</p>
+                <div class="info-box">
+                    <p><strong>Regular Space:</strong> AI interactions are restricted to healthy, safe, and productive content. Usage for accessing or generating content related to gambling, illegal drugs, or adult content is prohibited in this space.</p>
+                </div>
+                <div class="info-box" style="border-left-color: #ef4444;">
+                    <p><strong>Private Space:</strong> Provides unrestricted AI assistance. However, users are still bound by local laws regarding the possession and distribution of illegal content.</p>
+                </div>
 
-                <h3>3.2 Prohibited Content</h3>
+                <h3>3.2 Prohibited Acts</h3>
                 <div class="warning-box">
-                    <p><strong>You agree not to generate apps or content that:</strong></p>
+                    <p><strong>You agree not to use PrivaZone AI Browser to:</strong></p>
                     <ul>
-                        <li>Is illegal, hateful, or harasses others</li>
-                        <li>Infringes on intellectual property rights</li>
-                        <li>Contains malware or malicious code</li>
-                        <li>Is sexually explicit or violent</li>
+                        <li>Distribute malware or conduct phishing attacks.</li>
+                        <li>Bypass security measures of websites.</li>
+                        <li>Infringe upon the intellectual property rights of others.</li>
+                        <li>Conduct any activity that violates applicable laws and regulations.</li>
                     </ul>
                 </div>
             </div>
 
             <div class="terms-section">
-                <h2>4. Intellectual Property</h2>
-                
-                <h3>4.1 Platform Rights</h3>
-                <p>CursoorNow and its underlying technology are owned by us and protected by intellectual property laws.</p>
-
-                <h3>4.2 Generated Content</h3>
-                <p>Subject to these Terms, you retain ownership of the specific app logic and assets generated by your unique prompts, to the extent permitted by law.</p>
+                <h2>4. Biometric Security</h2>
+                <p>Access to the Private Space requires biometric authentication. You are responsible for maintaining the security of your device's biometric settings. We are not liable for unauthorized access resulting from compromised device security.</p>
             </div>
 
             <div class="terms-section">
-                <h2>5. Service Availability</h2>
-                <p>We strive for high availability but do not guarantee uninterrupted access. We reserve the right to modify or discontinue parts of the service at any time.</p>
+                <h2>5. Intellectual Property</h2>
+                <p>The PrivaZone AI Browser software, including its AI models and user interface, is the intellectual property of its creators. You are granted a limited, non-exclusive license to use the browser for personal, non-commercial purposes.</p>
             </div>
 
             <div class="terms-section">
                 <h2>6. Limitation of Liability</h2>
-                <p>CursoorNow is provided "as is". We are not liable for any indirect, incidental, or consequential damages arising from your use of the service.</p>
+                <p>PrivaZone AI Browser is provided "as is". We do not guarantee that the AI-provided information is always accurate or reliable. We are not liable for any damages arising from your use of the browser or reliance on AI-generated content.</p>
             </div>
 
             <div class="terms-section">

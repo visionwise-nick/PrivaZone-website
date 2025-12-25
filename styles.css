@@ -1,13 +1,13 @@
 /* Reset & Variables */
 :root {
-    --bg-dark: #010409;
-    --bg-panel: #0D1117;
-    --primary: #FFFFFF;
-    --secondary: #9CA3AF;
-    --accent: #6B7280;
+    --bg-dark: #000000;
+    --bg-panel: #0A0A0A;
+    --primary: #FF9900;
+    --secondary: #E68900;
+    --accent: #FFB340;
     --text-main: #FFFFFF;
-    --text-muted: #9CA3AF;
-    --shadow-white: 0 0 10px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.05);
+    --text-muted: #CCCCCC;
+    --shadow-white: 0 0 10px rgba(255, 153, 0, 0.2), 0 0 20px rgba(255, 153, 0, 0.1);
     --shadow-gray: 0 0 10px rgba(156, 163, 175, 0.1), 0 0 20px rgba(156, 163, 175, 0.05);
     
     --font-heading: 'Orbitron', sans-serif;
@@ -37,8 +37,8 @@ body {
     width: 100vw;
     height: 100vh;
     background: 
-        linear-gradient(transparent 0%, rgba(255, 255, 255, 0.02) 2px, transparent 3px),
-        linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.02) 2px, transparent 3px);
+        linear-gradient(transparent 0%, rgba(255, 153, 0, 0.05) 2px, transparent 3px),
+        linear-gradient(90deg, transparent 0%, rgba(255, 153, 0, 0.05) 2px, transparent 3px);
     background-size: 50px 50px;
     transform: perspective(500px) rotateX(60deg) translateY(-100px) scale(2);
     animation: gridMove 20s linear infinite;
@@ -69,9 +69,9 @@ h1, h2, h3, h4 {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(13, 17, 23, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 153, 0, 0.2);
     z-index: 1000;
     padding: 1rem 0;
 }

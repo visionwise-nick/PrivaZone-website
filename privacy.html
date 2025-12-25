@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - CursoorNow</title>
-    <meta name="description" content="CursoorNow Privacy Policy - Learn how we collect, use and protect your personal information">
+    <title>Privacy Policy - PrivaZone AI Browser</title>
+    <meta name="description" content="PrivaZone AI Browser Privacy Policy - Learn how we collect, use and protect your personal information">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="assets/icon/app_icon.png">
     <style>
+        :root {
+            --primary: #FF9900;
+            --bg-dark: #000000;
+            --bg-panel: #0A0A0A;
+        }
+
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            background-color: var(--bg-dark);
+            color: #CCCCCC;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+        }
+
         .privacy-container {
             max-width: 800px;
             margin: 0 auto;
@@ -27,20 +43,23 @@
             font-weight: 700;
             color: white;
             margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
         
         .privacy-subtitle {
             font-size: 1.1rem;
-            color: #94a3b8;
+            color: var(--primary);
         }
         
         .privacy-content {
-            background: #1e293b;
+            background: var(--bg-panel);
             padding: 3rem;
             border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 153, 0, 0.2);
+            box-shadow: 0 4px 20px rgba(255, 153, 0, 0.1);
             line-height: 1.8;
-            color: #cbd5e1;
+            color: #CCCCCC;
         }
         
         .privacy-section {
@@ -50,22 +69,23 @@
         .privacy-section h2 {
             font-size: 1.5rem;
             font-weight: 600;
-            color: #f8fafc;
+            color: white;
             margin-bottom: 1rem;
             padding-bottom: 0.5rem;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 2px solid var(--primary);
+            text-transform: uppercase;
         }
         
         .privacy-section h3 {
             font-size: 1.2rem;
             font-weight: 600;
-            color: #e2e8f0;
+            color: var(--primary);
             margin: 1.5rem 0 0.5rem;
         }
         
         .privacy-section p {
             margin-bottom: 1rem;
-            color: #cbd5e1;
+            color: #CCCCCC;
         }
         
         .privacy-section ul {
@@ -75,32 +95,34 @@
         
         .privacy-section li {
             margin-bottom: 0.5rem;
-            color: #cbd5e1;
+            color: #CCCCCC;
         }
         
         .highlight {
-            background-color: rgba(56, 239, 125, 0.1);
+            background-color: rgba(255, 153, 0, 0.1);
             padding: 1rem;
             border-radius: 8px;
-            border-left: 4px solid #38ef7d;
+            border-left: 4px solid var(--primary);
             margin: 1.5rem 0;
-            color: #e2e8f0;
+            color: white;
         }
         
         .contact-info {
-            background-color: rgba(0, 198, 255, 0.1);
+            background-color: rgba(255, 153, 0, 0.05);
             padding: 1.5rem;
             border-radius: 8px;
-            border-left: 4px solid #00c6ff;
+            border-left: 4px solid var(--primary);
             margin: 2rem 0;
         }
         
         .back-link {
             display: inline-block;
             margin-top: 2rem;
-            color: #38ef7d;
+            color: var(--primary);
             text-decoration: none;
             font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         
         .back-link:hover {
@@ -127,8 +149,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="assets/icon/app_icon.png" alt="CursoorNow" class="logo-img">
-                <span class="logo-text">CursoorNow</span>
+                <img src="assets/icon/app_icon.png" alt="PrivaZone AI Browser" class="logo-img">
+                <span class="logo-text">PrivaZone AI Browser</span>
             </div>
             <div class="nav-menu">
                 <a href="index.html" class="nav-link">Home</a>
@@ -149,75 +171,70 @@
             <div class="privacy-section">
                 <h2>1. Introduction</h2>
                 <p>
-                    Welcome to CursoorNow! We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our AI app generation platform.
+                    Welcome to PrivaZone AI Browser! We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our dual-space AI-powered browser.
                 </p>
                 <p>
-                    By using CursoorNow, you consent to the data practices described in this policy.
+                    By using PrivaZone AI Browser, you consent to the data practices described in this policy.
                 </p>
             </div>
 
             <div class="privacy-section">
-                <h2>2. Information We Collect</h2>
+                <h2>2. Dual Spaces and Privacy Isolation</h2>
+                <p>PrivaZone AI Browser features two distinct browsing environments:</p>
+                <ul>
+                    <li><strong>Regular Space:</strong> For everyday browsing with standard privacy features.</li>
+                    <li><strong>Private Space:</strong> A completely isolated environment secured by biometric authentication (Fingerprint/Face ID). All browsing history, cookies, and AI conversations in this space are strictly isolated from the Regular Space.</li>
+                </ul>
+                <div class="highlight">
+                    <p><strong>Note:</strong> Your biometric data is handled by your device's secure enclave and is never transmitted to our servers.</p>
+                </div>
+            </div>
+
+            <div class="privacy-section">
+                <h2>3. Information We Collect</h2>
                 
-                <h3>2.1 Account Information</h3>
-                <p>When you create an account, we may collect:</p>
+                <h3>3.1 Local Data</h3>
+                <p>Most of your browsing data, including history, bookmarks, and open tabs, is stored locally on your device. We do not sync this data to our servers unless specifically requested by features you enable.</p>
+
+                <h3>3.2 AI Interaction Data</h3>
+                <p>To provide AI-powered assistance, we process:</p>
                 <ul>
-                    <li>Email address</li>
-                    <li>Username</li>
-                    <li>Profile picture (optional)</li>
+                    <li>Your chat queries and conversations with the AI assistant.</li>
+                    <li>Website content fragments required for the AI to provide contextual answers (in Private Space, this includes unrestricted content).</li>
                 </ul>
 
-                <h3>2.2 Generated Content Data</h3>
-                <p>To provide our core service, we process:</p>
+                <h3>3.3 Usage Data</h3>
+                <p>We may collect anonymized telemetry to improve our browser performance:</p>
                 <ul>
-                    <li>Your text prompts and app descriptions</li>
-                    <li>App assets and code generated by our AI</li>
-                    <li>App configuration settings</li>
-                </ul>
-
-                <h3>2.3 Usage Data</h3>
-                <p>We collect information on how you interact with our service:</p>
-                <ul>
-                    <li>Time spent on the app</li>
-                    <li>Features used</li>
-                    <li>Error logs and performance metrics</li>
+                    <li>Feature usage frequency.</li>
+                    <li>Crash reports and performance metrics.</li>
+                    <li>Anonymized ad-blocking statistics.</li>
                 </ul>
             </div>
 
             <div class="privacy-section">
-                <h2>3. How We Use Your Information</h2>
-                <p>We use the collected data to:</p>
+                <h2>4. AI Content and Safety</h2>
+                <p>We use different AI policies for each space:</p>
                 <ul>
-                    <li><strong>Provide Service:</strong> Generate apps based on your prompts.</li>
-                    <li><strong>Improve AI Models:</strong> Refine our generation algorithms (using anonymized data).</li>
-                    <li><strong>Customer Support:</strong> Assist with technical issues.</li>
-                    <li><strong>Safety:</strong> Monitor for prohibited content generation.</li>
+                    <li><strong>Regular Space:</strong> AI is restricted to healthy, safe, and productive content. It will refuse to engage in conversations involving illegal acts, violence, or restricted adult content.</li>
+                    <li><strong>Private Space:</strong> AI provides unrestricted assistance, allowing for deep exploration of any webpage content you browse.</li>
                 </ul>
             </div>
 
             <div class="privacy-section">
-                <h2>4. Data Storage and Security</h2>
+                <h2>5. Data Storage and Security</h2>
                 
-                <h3>4.1 Security Measures</h3>
-                <p>We implement industry-standard security measures including encryption in transit and at rest to protect your personal information.</p>
+                <h3>5.1 Security Measures</h3>
+                <p>We use industry-standard encryption for any data transmitted between your device and our servers. Private Space data is further protected by your device's native biometric security.</p>
 
-                <h3>4.2 Data Retention</h3>
-                <p>We retain your account data as long as your account is active. You can request deletion of your data at any time.</p>
-            </div>
-
-            <div class="privacy-section">
-                <h2>5. Sharing of Information</h2>
-                <p>We do not sell your personal information. We may share data with:</p>
-                <ul>
-                    <li>Cloud service providers (e.g., for hosting and database)</li>
-                    <li>AI model providers (only the prompt content necessary for generation)</li>
-                </ul>
+                <h3>5.2 Data Retention</h3>
+                <p>AI conversation logs are retained for a limited time to provide context for your chats. You can clear your history and AI conversations at any time through the browser settings.</p>
             </div>
 
             <div class="privacy-section">
                 <h2>6. Children's Privacy</h2>
                 <p>
-                    CursoorNow is not intended for children under 13. We do not knowingly collect personal information from children under 13.
+                    PrivaZone AI Browser is intended for users aged 18 and older. We do not knowingly collect personal information from individuals under this age.
                 </p>
             </div>
 

@@ -101,10 +101,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.querySelector('.navbar');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            navbar.style.background = 'rgba(13, 17, 23, 0.95)';
-            navbar.style.boxShadow = '0 4px 20px rgba(255, 255, 255, 0.05)';
+            navbar.style.background = 'rgba(0, 0, 0, 0.95)';
+            navbar.style.boxShadow = '0 4px 20px rgba(255, 153, 0, 0.1)';
         } else {
-            navbar.style.background = 'rgba(13, 17, 23, 0.9)';
+            navbar.style.background = 'rgba(0, 0, 0, 0.9)';
             navbar.style.boxShadow = 'none';
         }
     });
@@ -172,9 +172,9 @@ function createParticles() {
             this.y = Math.random() * height;
             this.vx = (Math.random() - 0.5) * 0.5;
             this.vy = (Math.random() - 0.5) * 0.5;
-            this.size = Math.random() * 2;
-            this.color = Math.random() > 0.5 ? '#FFFFFF' : '#9CA3AF'; // White or Gray
-        }
+        this.size = Math.random() * 2;
+        this.color = Math.random() > 0.5 ? '#FF9900' : '#CCCCCC'; // Orange or Gray
+    }
 
         update() {
             this.x += this.vx;
