@@ -2,10 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- Typing Effect ---
     const typingElement = document.getElementById('typing-text');
     const phrases = [
+        "what are this actress's most famous movies",
         "this financial report and explain the key trends",
         "the implications of this news article in detail",
         "what are the benefits of this exercise routine",
         "analyze this chart and predict market trends",
+        "tell me about this person's background and achievements",
+        "what inspired this artwork and its significance",
         "summarize the methodology and findings here",
         "how this recipe can be modified for my diet"
     ];
