@@ -2,10 +2,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- Typing Effect ---
     const typingElement = document.getElementById('typing-text');
     const phrases = [
-        "task manager app with reminders and categories",
-        "calculator app with scientific functions",
-        "weather app with forecasts and location tracking",
-        "note-taking app with markdown support"
+        "this financial report and explain the key trends",
+        "the implications of this news article in detail",
+        "what are the benefits of this exercise routine",
+        "analyze this chart and predict market trends",
+        "summarize the methodology and findings here",
+        "how this recipe can be modified for my diet"
     ];
     
     let phraseIndex = 0;
@@ -77,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, observerOptions);
 
-    const animateElements = document.querySelectorAll('.feature-card, .step-item, .audience-card, .download-card, .stat-item');
+    const animateElements = document.querySelectorAll('.feature-card, .step-item, .audience-card, .download-card, .stat-item, .space-card, .example-card');
     animateElements.forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
