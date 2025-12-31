@@ -1,0 +1,62 @@
+TERMS OF SERVICE
+
+Last updated: December 2025
+
+1. ACCEPTANCE OF TERMS
+
+Welcome to PrivaZone AI Browser! By accessing or using our browser, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.
+
+2. SERVICE DESCRIPTION
+
+PrivaZone AI Browser provides a dual-space browsing environment with integrated AI assistance. Our services include:
+
+- Standard browsing (Regular Space)
+- Biometric-secured isolated browsing (Private Space)
+- AI-powered webpage content analysis and chat
+- Ad-blocking and tracking protection
+
+3. USER CONDUCT AND CONTENT RESTRICTIONS
+
+3.1 Content Policy
+
+We maintain different AI safety policies depending on the browsing space used:
+
+Regular Space: AI interactions are restricted to healthy, safe, and productive content. Usage for accessing or generating content related to gambling, illegal drugs, or adult content is prohibited in this space.
+
+Private Space: Provides unrestricted AI assistance. However, users are still bound by local laws regarding the possession and distribution of illegal content.
+
+3.2 Prohibited Acts
+
+You agree not to use PrivaZone AI Browser to:
+
+- Distribute malware or conduct phishing attacks.
+- Bypass security measures of websites.
+- Infringe upon the intellectual property rights of others.
+- Conduct any activity that violates applicable laws and regulations.
+
+4. BIOMETRIC SECURITY
+
+Access to the Private Space requires biometric authentication. You are responsible for maintaining the security of your device's biometric settings. We are not liable for unauthorized access resulting from compromised device security.
+
+5. INTELLECTUAL PROPERTY
+
+The PrivaZone AI Browser software, including its AI models and user interface, is the intellectual property of its creators. You are granted a limited, non-exclusive license to use the browser for personal, non-commercial purposes.
+
+6. LIMITATION OF LIABILITY
+
+PrivaZone AI Browser is provided "as is". We do not guarantee that the AI-provided information is always accurate or reliable. We are not liable for any damages arising from your use of the browser or reliance on AI-generated content.
+
+7. SUBSCRIPTIONS AND PAYMENTS
+
+- Payment will be charged to your iTunes Account at confirmation of purchase.
+- Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
+- Your account will be charged for renewal within 24 hours prior to the end of the current period, and identify the cost of the renewal.
+- Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase.
+- Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.
+
+8. CONTACT US
+
+If you have any questions about these Terms, please contact us at:
+
+Email: xiongsl2013@gmail.com
+

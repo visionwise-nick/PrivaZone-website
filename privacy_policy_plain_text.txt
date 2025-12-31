@@ -1,0 +1,78 @@
+PRIVACY POLICY
+
+Last updated: December 2025
+
+1. INTRODUCTION
+
+Welcome to PrivaZone AI Browser! We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our dual-space AI-powered browser.
+
+By using PrivaZone AI Browser, you consent to the data practices described in this policy.
+
+2. DUAL SPACES AND PRIVACY ISOLATION
+
+PrivaZone AI Browser features two distinct browsing environments:
+
+- Regular Space: For everyday browsing with standard privacy features.
+- Private Space: A completely isolated environment secured by biometric authentication (Fingerprint/Face ID). All browsing history, cookies, and AI conversations in this space are strictly isolated from the Regular Space.
+
+Note: Your biometric data is handled by your device's secure enclave and is never transmitted to our servers.
+
+2.1 Background Privacy Protection
+
+When using Private Space and the app switches to background:
+
+- All video playback stops immediately to prevent unauthorized viewing
+- The app automatically switches to Regular Space
+- Private Space content is completely hidden from "Recent Apps" view
+- Returning to foreground requires biometric authentication to access Private Space again
+
+This ensures that no one can peek at your private browsing activities, even if they access your device while you're away.
+
+3. INFORMATION WE COLLECT
+
+3.1 Local Data
+
+Most of your browsing data, including history, bookmarks, and open tabs, is stored locally on your device. We do not sync this data to our servers unless specifically requested by features you enable.
+
+3.2 AI Interaction Data
+
+To provide AI-powered assistance, we process:
+
+- Your chat queries and conversations with the AI assistant.
+- Website content fragments required for the AI to provide contextual answers (in Private Space, this includes unrestricted content).
+
+3.3 Usage Data
+
+We may collect anonymized telemetry to improve our browser performance:
+
+- Feature usage frequency.
+- Crash reports and performance metrics.
+- Anonymized ad-blocking statistics.
+
+4. AI CONTENT AND SAFETY
+
+We use different AI policies for each space:
+
+- Regular Space: AI is restricted to healthy, safe, and productive content. It will refuse to engage in conversations involving illegal acts, violence, or restricted adult content.
+- Private Space: AI provides unrestricted assistance, allowing for deep exploration of any webpage content you browse.
+
+5. DATA STORAGE AND SECURITY
+
+5.1 Security Measures
+
+We use industry-standard encryption for any data transmitted between your device and our servers. Private Space data is further protected by your device's native biometric security.
+
+5.2 Data Retention
+
+AI conversation logs are retained for a limited time to provide context for your chats. You can clear your history and AI conversations at any time through the browser settings.
+
+6. CHILDREN'S PRIVACY
+
+PrivaZone AI Browser is intended for users aged 18 and older. We do not knowingly collect personal information from individuals under this age.
+
+7. CONTACT US
+
+If you have any questions about this privacy policy, please contact us at:
+
+Email: xiongsl2013@gmail.com
+
